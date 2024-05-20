@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Archisha's webfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar-menu {
+            list-style: none;
+            display: flex;
+        }
+
+        .navbar-item {
+            margin: 0 1rem;
+        }
+
+        .navbar-link {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .navbar-link:hover {
+            color: #00796b;
+        }
+
+        .surprise-btn {
+            background-color: #009688; 
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .surprise-btn:hover {
+            background-color: #00796b; 
+            color: #e0f2f1; 
+        }
+
+        header {
+            background-image: url('https://media.istockphoto.com/id/1253853268/photo/dark-blue-waves-in-the-water.jpg?s=612x612&w=0&k=20&c=oUPUz52ZQxghLKKmtWoZzIZBWT3BOHc7WBycQGJyYVQ=');
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        body {
+            font-family: Tahoma, sans-serif;
+            background-color: #ADD8E6;
+            color: #191970; 
+            margin: 0;
+            padding: 0;
+            margin-top: 70px;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 1.4em;
+        }
+
+        .about-me-title {
+            text-align: left;
+        }
+
+        li u {
+            font-size: 1.4em; 
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 300px; /* Adjust the width as needed */
+            height: auto; /* Keeps the aspect ratio */
+            border-radius: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar" id="to-top">
+        <ul class="navbar-menu">
+            <li class="navbar-item"><a href="#about" class="navbar-link">About Me</a></li>
+            <li class="navbar-item"><a href="#portfolio" class="navbar-link">Portfolio</a></li>
+        </ul>
+        <a href="baby.html" class="surprise-btn">Surprise Me!</a>
+    </div>
+
+    <header>
+        <h1>Welcome to my webfolio!</h1>
+    </header>
+
+    <main>
+        <section id="about">
+            <h1>About me</h1>
+            <h3>Random facts</h3>
+            <p>I am from Cedar Girls' Secondary school. My CCA right now is taekwondo.</p>
+            <p>I travelled in a plane when I was less than a month old. That's why my first passport picture looks so bad LOL.</p>
+            
+            <h3>My likes</h3>
+            <ul>
+                <li><u>Travelling</u></li>
+                <p>I LOVE travelling. The idea of visiting a new country excites me as I love travelling in planes and I enjoy the whole process of packing and going to the airport. I also enjoy seeing new places and learning more about different cultures. I really like scenic and historic places. My favourite continent is Europe because I love their food and their culture. In fact, my dream is to travel the world and live life from different perspectives with my family or friends.</p>
+                <img src="https://www.candorblog.com/wp-content/uploads/2017/05/travel-022.jpg" alt="Travelling">
+
+                <li><u>Fashion</u></li>
+                <p>I absolutely love everything to do with fashion and style. From clothes, shoes, jewellery to accessories, you name it, I love it. Dressing up brings me great happiness because I can feel more confident in things that look good. I'm not one who cares much about brand because I am very stingy LOL so I hate spending money unnecessarily. I think it is good that I'm stingy so that it moderates my shopping addiction.</p>
+                <img src="https://intheblouse.elementor.cloud/wp-content/uploads/elementor/thumbs/Untitled-design-2023-05-16T200459.916-1-qazej0f9yp38p04oewvs1rqrx3bd5vink399rnotwk.png" alt="Fashion">
+
+                <li><u>Chocolate milk</u></li>
+                <p>This is pretty self-explanatory because who doesn't love chocolate milk? I really want to try hot chocolate in Paris and Italy and try chocolate milk in New Zealand where milk tastes so good.</p>
+
+                <li><u>Fitness</u></li>
+                <p>Rather strange but I like fitness related stuff like eating clean and exercising. I love the sore feeling after working out because it gives me a sense of fulfilment that brings me great satisfaction. I really like running and I used to regularly run 5km last year but I have not had enough time this year to be doing that regularly. But I love walking. I also like eating clean which means I don't consume unhealthy food because I believe that it might affect me negatively when I am older. So in order to keep fit I eat well for my body and exercise regularly.</p>
+
+                <li><u>Summer</u></li>
+                <p>I love summer because I love the sun and the ocean. Summer is a happy weather where you can relax in water which is what I love. Summer > Winter because I don't like to wear so many layers of clothes. That being said I also really enjoy water activities.</p>
+                <img src="https://i.pinimg.com/564x/0c/56/51/0c56513819824406edbea1ff99ff8062.jpg" alt="Summer">
+            </ul>
+            
+            <h3>My dislikes</h3>
+            <ul>
+                <li><u>Reptiles</u></li>
+                <p>I HATE reptiles of any sort. They are scaly, slimy and disgusting. I hate snakes the most.</p>
+
+                <li><u>Foul smells</u></li>
+                <p>I am super sensitive to smells so if I smell something bad I feel like puking.</p>
+
+                <li><u>Certain types of food</u></li>
+                <p>I am also a very picky eater but I do many vegetables and fruits.</p>
+            </ul>
+        </section>
+        
+        <section id="portfolio">
+            <h1>My projects</h1>
+            <ol>
+                <p>An impressive 10/30 for WA1 suggests that my past projects are not the best.</p>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Link</th>
+                    </tr>
+                    <tr>
+                        <td>Pokedex</td>
+                        <td>Pokedex is a search engine that I made with the help of my friend. It can search up statistics in the range of 800 pokemons using its menu. It even has a surprise me function that leads the user to playing sudoku!</td>
+                        <td><a href="https://drive.google.com/drive/folders/1VE58D_o0gUhrlC_oZepBosoOStVbFmNg">Pokedex</a></td>
+                    </tr>
+                    <tr>
+                        <td>Portfolio</td>
+                        <td>This is my first ever website for my computing selection process. It is quite bad because I was still learning.</td>
+                        <td><a href="https://github.com/archisha-dubey/Website-Portfolio/blob/main/website.html">Portfolio</a></td>
+                    </tr>
+                    <tr>
+                        <td>Random</td>
+                        <td>This is a random tutorial I did for school because I don't have much to add to my portfolio :(</td>
+                        <td><a href="https://colab.research.google.com/drive/1o5gsjI9pzFnX2rBUV0ZrluHkmLRkTW1T">Tutorial</a></td>
+                    </tr>
+                    <tr>
+                        <td>Game</td>
+                        <td>This is a game that I coded using Python for fun during December last year.</td>
+                        <td><a href="https://www.youtube.com/embed/FQmXWQ2zUh8">Game</a></td>
+                    </tr>
+                </table>
+            </ol>
+        </section>
+    </main>
+</body>
+</html>
+
